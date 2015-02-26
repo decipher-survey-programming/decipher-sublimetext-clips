@@ -1,0 +1,148 @@
+[   { 
+        "keys": ["ctrl+f1"], "command": "make_survey", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+r"], "command": "make_radio", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+shift+r"], "command": "make_rating", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+shift+c"], "command": "make_checkbox", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+shift+s"], "command": "make_select", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+shift+t"], "command": "make_textarea", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+t"], "command": "make_text", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+n"], "command": "make_number", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+p"], "command": "make_pipe", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+f1"], "command": "make_rowr", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+1"], "command": "make_row", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+9"], "command": "make_rows_match_label", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+2"], "command": "make_cols", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+8"], "command": "make_cols_match_label", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+7"], "command": "make_cols_match_value", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+3"], "command": "make_choices", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+4"], "command": "make_cases", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+5"], "command": "make_groups", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+6"], "command": "make_loop_block", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+shift+h"], "command": "make_comment", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+shift+f12"], "command": "make_switch", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    }
+]

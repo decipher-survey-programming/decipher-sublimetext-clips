@@ -1,0 +1,39 @@
+[
+{
+  "id": "questionTypes",
+  "caption": "D-Question Types",
+  "children": 
+   [
+        { "id": "MakeSurvey", "caption": "Survey", "command": "make_survey"},
+        { "id": "MakeRadio", "caption": "Radio", "command": "make_radio"},
+        { "id": "MakeRading", "caption": "Rating", "command": "make_rating"},
+        { "id": "MakeCheckbox", "caption": "Checkbox", "command": "make_checkbox"},
+        { "id": "MakeSelect", "caption": "Select", "command": "make_select"},
+        { "id": "MakeTextArea", "caption": "Textarea", "command": "make_textarea"},
+        { "id": "MakeText", "caption": "text", "command": "make_text"},
+        { "id": "MakeNumber", "caption": "Number", "command": "make_number"},
+        { "id": "MakeComment", "caption": "Comment", "command": "make_comment"}
+   ]
+ },
+  {
+    "id": "questionElements",
+    "caption": "D-Question Elements",
+    "children": 
+    [
+        
+        {"id": "MakeRow", "caption": "Rows", "command": "make_row"},
+        {"id": "MakeRowR", "caption": "RowsR", "command": "make_rowr"},
+        {"id": "MakeCols", "caption": "Columns", "command": "make_cols"},
+        {"id": "MakeChoice", "caption": "Choices", "command": "make_choices"},
+        {"id": "MakeCAses", "caption": "Cases", "command": "make_cases"},
+        {"id": "MakeGroups", "caption": "Groups", "command": "make_groups"},
+        {"id": "MakePipe", "caption": "Pipe", "command": "make_pipe"},
+        {"id": "MakeLoop", "caption": "Loop", "command": "make_loop_block"},
+        {"id": "MakeLabel", "caption": "Rows match label", "command": "make_rows_match_label"},
+        {"id": "MakeMatchLab", "caption": "Cols match label", "command": "make_cols_match_label"},
+        {"id": "MakeColsMatchValue", "caption": "Cols match value", "command": "make_cols_match_value"},
+        {"id": "MakeSwitch", "caption": "Switch Cols Rows", "command": "make_switch"}
+        
+    ]
+ }
+ ]
