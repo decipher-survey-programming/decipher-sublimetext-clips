@@ -24,7 +24,7 @@ Decipher Sublime Text 2 Clips
 
 
 Command: <b>MM::Html</b><br>
-Makes an <html> tag in the survey and replaces blank lines with <br/> <br/>
+Makes an <html> tag in the survey and replaces blank lines with &lt;br/&gt; &lt;br/&gt;
 
 Command: <b>MM::Strip</b><br>
 Strips xml off of text. 
