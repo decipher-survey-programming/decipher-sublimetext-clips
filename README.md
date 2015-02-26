@@ -39,9 +39,10 @@ Example:<br>
 Placeholder.jpg -&gt; &lt;img src="[rel Placeholder.jpg]" alt="Image" class="custImage" /&gt;
 
 Command: <b>MM::Reverse Order</b><br>
-Flips selected rows.
+Flips selected lines.
 
 Command: <b>MM::Make DCM</b><br>
+Experimental DCM maker<br>
 Select your res tags and label each with a number. 
 
 Example:<br>
@@ -78,17 +79,17 @@ Example:<br>
   ...<br>
 
 Command: <b>MM::Make SCols</b><br>
-My take on making columns.
+Column maker.
 
 Command: <b>MM::Make list</b><br>
 Makes an html list. Type of list can be specified with a [ol|ul]. Defaults to &lt;ul&gt; if neither is specified
 
 Command: <b>MM::Clean</b><br>
-Removes things in []'s or &lt;b&gt;[]&lt;/b&gt;'s
+Removes things in []'s or &lt;b&gt;[]&lt;/b&gt;'s<br>
 Also fixes unicode character's and &'s
 
 Command: <b>MM::No Answer</b><br>
-Creates <noanswer> row. Currently you must specify the row label
+Creates <noanswer> row.
 
 Example:<br>
 97 Don't know -> &lt;noanswer label="na97"&gt;Don't Know&lt;/noanswer&gt;<br>
@@ -96,7 +97,7 @@ or <br>
 r97 Don't know -> &lt;noanswer label="na97"&gt;Don't Know&lt;/noanswer&gt;<br>
 
 Command: <b>MM::AutoSum</b><br>
-Little command that is couple with a snippet I have. I will work on getting those uploaded eventually.
+Little command that is coupled with a snippet I have. I will work on getting those uploaded eventually.
 
 
 More soon...<br>
