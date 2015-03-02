@@ -1107,7 +1107,8 @@ class makeColsCommand(sublime_plugin.TextCommand):
                 #start from output = to fill this class
                 for x in range(0,len(input)):
                     input[x] = re.sub("^[a-zA-Z0-9]{1,2}[\.:\)][ \t]+", "\n", input[x])
-                    input[x] = re.sub(r"^([0-9]{1,3})[\t\s.:)]([a-zA-Z0-9\s\'\"]+)$", r"\2<br/> \1", input[x])
+                    #Probably a bad idea to assume numbers should be at bottom with a <br/>
+                    #input[x] = re.sub(r"^([0-9]{1,3})[\t\s.:)]([a-zA-Z0-9\s\'\"]+)$", r"\2<br/> \1", input[x])
                 count = 0
                 for x in input:
                     if "other" in input[count].strip().lower() and "specify" in input[count].strip().lower():
