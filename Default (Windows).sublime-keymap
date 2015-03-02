@@ -144,5 +144,26 @@
               "key": "selector", "operator": "equal", "operand":"text.xml"
             }
         ]
+    },
+    { 
+        "keys": ["ctrl+alt+s"], "command": "strip", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+alt+i"], "command": "image_tags", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
+    },
+    { 
+        "keys": ["ctrl+alt+n"], "command": "noanswer", "context": [
+            {
+              "key": "selector", "operator": "equal", "operand":"text.xml"
+            }
+        ]
     }
 ]

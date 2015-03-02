@@ -105,7 +105,7 @@ class MatchRowValuesCommand(sublime_plugin.TextCommand):
                         i += 1
                     printPage += valueAdded + "\n"
 
-            self.view.replace(edit, sel, printPage)
+                    self.view.replace(edit, sel, printPage)
         except Exception, e:
             print e
 
@@ -124,7 +124,7 @@ class StripCommand(sublime_plugin.TextCommand):
                     findCon = re.search(r'>(.*)<', x.strip())
                     printPage += findCon.group(1) + "\n"
 
-            self.view.replace(edit, sel, printPage)
+                self.view.replace(edit, sel, printPage)
         except Exception, e:
             print e
 
@@ -143,7 +143,7 @@ class ImageTagsCommand(sublime_plugin.TextCommand):
                     if x != "":
                         printPage += "  <img src=\"[rel " + x + "]\" alt=\"Image\" class=\"custImage\" />" + '\n'
 
-            self.view.replace(edit, sel, printPage)
+                self.view.replace(edit, sel, printPage)
         except Exception, e:
             print e
 
@@ -159,7 +159,7 @@ class ReverseOrderCommand(sublime_plugin.TextCommand):
                 for x in reversed(rowVs):
                     printPage += x + '\n'
 
-            self.view.replace(edit, sel, printPage)
+                self.view.replace(edit, sel, printPage)
         except Exception, e:
             print e
 
@@ -374,7 +374,7 @@ class CleanCommand(sublime_plugin.TextCommand):
                 input = re.sub(r"(<.*>\[.*\]<.*>|\[.*\])", "", input)
                 input = fixUniCode(input)
 
-            self.view.replace(edit,sel, input)
+                self.view.replace(edit,sel, input)
         except Exception, e:
             print e
 
@@ -391,7 +391,7 @@ class NoanswerCommand(sublime_plugin.TextCommand):
                 for x in input:
                     printPage += "<noanswer label=\"{label}\">{text}</noanswer>\n".format(label=x[0], text=x[1])
 
-            self.view.replace(edit,sel, printPage)
+                self.view.replace(edit,sel, printPage)
         except Exception, e:
             print e
 
@@ -433,7 +433,7 @@ class AutoSumCommand(sublime_plugin.TextCommand):
                 for y in items:
                     printPage += " " + y 
 
-            self.view.replace(edit,sel, printPage)
+                self.view.replace(edit,sel, printPage)
         except Exception, e:
             print e
 
@@ -450,7 +450,7 @@ class ZachRowsCommand(sublime_plugin.TextCommand):
                 for x in input:
                     printPage += "<row label=\"{label}\">{content}</row>\n".format(label=x[0], content=x[1])
 
-            self.view.replace(edit,sel, printPage)
+                self.view.replace(edit,sel, printPage)
         except Exception, e:
             print e
 
