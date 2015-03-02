@@ -10,6 +10,7 @@ def make_labels(input, itemOP, splitter):
     surveyItems = []
     i = 1
     input = re.sub(r"\n([\s]*)\n", r"\n", input)
+    input = re.sub(r"[_]{2,}", r"", input)
     # input = re.sub(r"[\n]{2,}", r"\n", input)
     input = input.split(splitter)
     for x in input:
@@ -27,18 +28,22 @@ def make_labels(input, itemOP, splitter):
         if rowAA:
             rowLabel = itemOP + rowAA.group(1)
             rowText = rowAA.group(2)
+            rowNum = rowAA.group(1)
 
         elif rowDD:
             rowLabel = itemOP + rowDD.group(1)
             rowText = rowDD.group(2)
+            rowNum = rowDD.group(1)
 
         elif rowAB:
             rowLabel = itemOP + rowAB.group(1)
             rowText = rowAB.group(2)
+            rowNum = rowAB.group(1)
 
         else:
             rowLabel = itemOP + str(i)
             rowText = rowZZ.group(1)
+            rowNum = rowZZ.group(1)
             i += 1
 
         rowText = re.sub("&\s", "&amp;", rowText)
@@ -50,7 +55,7 @@ def make_labels(input, itemOP, splitter):
         if spec:
             extra=" open=\"1\" openSize=\"10\" randomize=\"0\""
 
-        surveyItems.append([rowLabel, rowText, extra])
+        surveyItems.append([rowLabel, rowText, extra, rowNum])
     return surveyItems
 
 class MakeHtmlCommand(sublime_plugin.TextCommand):
@@ -470,16 +475,43 @@ class AutoRowsCommand(sublime_plugin.TextCommand):
 class CustomCommand(sublime_plugin.TextCommand):
     def run (self,edit):
         try:
-            sels = self.view.sel()
 
+            sels = self.view.sel()
+            input = ''
             for sel in sels:
                 printPage = ""
                 input = self.view.substr(sel).strip()
                 input = fixUniCode(input)
-                input = make_labels(input, "r", '\n')
+                input = make_labels(input, "c", '\n')
+                print input
+                for x in input:
+                    if len(x[0]) and len(x[1]):
+                        printPage += "<col label=\"{label}\"{extra}>{rowText}</row>\n".format(label=x[0], extra=x[2], rowText=x[1].strip())
+                print printPage
 
 
-            self.view.replace(edit,sel, printPage)
+
+
+
+
+                #for x in range(0,len(input)):
+                #    input[x] = re.sub("^[a-zA-Z0-9]{1,2}[\.:\)][ \t]+", "\n", input[x])
+                #    input[x] = re.sub(r"^([0-9]{1,3})[\t\s.:)]([a-zA-Z0-9\s\'\"]+)$", r"\2<br/> \1", input[x])
+
+                #count = 0
+
+                #for x in input:
+                #    if "other" in input[count].strip().lower() and "specify" in input[count].strip().lower():
+                #        input[count] = input[count].strip().replace("_", "")
+                #        extra=' open=\"1\" openSize=\"10\" randomize=\"0\"'
+                #        printPage += "  <col label=\"c%s\"%s>%s</col>\n" % (str(count+1), extra, input[count].strip())
+                #        count += 1
+                #    else:
+                #        extra = ''
+                #        printPage += "  <col label=\"c%s\"%s>%s</col>\n" % (str(count+1), extra, input[count].strip())
+                #        count += 1
+
+                #self.view.replace(edit,sel, printPage)
         except Exception, e:
             print e
 
