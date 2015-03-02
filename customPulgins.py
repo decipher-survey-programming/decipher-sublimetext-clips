@@ -138,7 +138,7 @@ class ImageTagsCommand(sublime_plugin.TextCommand):
                     if x != "":
                         printPage += "  <img src=\"[rel " + x + "]\" alt=\"Image\" class=\"custImage\" />" + '\n'
 
-            self.view.replace(edit, sel, printPage)
+                self.view.replace(edit, sel, printPage)
         except Exception, e:
             print e
 
@@ -154,7 +154,7 @@ class ReverseOrderCommand(sublime_plugin.TextCommand):
                 for x in reversed(rowVs):
                     printPage += x + '\n'
 
-            self.view.replace(edit, sel, printPage)
+                 self.view.replace(edit, sel, printPage)
         except Exception, e:
             print e
 
