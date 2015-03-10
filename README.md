@@ -21,6 +21,59 @@ Windows 7 Default path (C:\Users\yourUserName\AppData\Roaming\Sublime Text 2\Pac
 Decipher Sublime Text 2 Clips
 
 ------------------------------
+Code block selection short cuts:
+
+ctrl+e = Select to the end of the current code block
+
+example:
+row1
+row2
+row2
+row..
+rowX
+
+cursor at beginning or line row1 will select to the end of line rowX 
+______________________________________________________________________
+
+ctrl+a = Select to the beginning of the current code block
+example:
+Q1 this is a question
+  <row label="r1">row1</row>
+  <row label="r2">row2</row>
+  <row label="r3">row2</row>
+  <row label="r4">row...</row>
+  <row label="r5">rowX</row>
+
+cursor at end of line rowX will select to the beginning of Q1 line
+
+________________________________
+
+
+ctrl+shift+right = Select to the end of current line 
+example:
+Q1 this is a question
+  <row label="r1">row1</row>
+  <row label="r2">row2</row>
+  <row label="r3">row2</row>
+  <row label="r4">row...</row>
+  <row label="r5">rowX</row>
+cursor at beginning or line row1 will select to the end of line row1
+
+_________________________________
+
+ctrl+shift+down = Select to the beginning of the next cursor
+example:
+Q1 this is a question
+  <row label="r1">row1</row>
+  <row label="r2">row2</row>
+  <row label="r3">row2</row>
+  <row label="r4">row...</row>
+  <row label="r5">rowX</row>
+cursor at beginning or line row1 and second cursor at the beginning of rowX will select everything between two placed cursors
+
+_________________________________
+
+
 
 
 Command: <b>MM::Html</b><br>
