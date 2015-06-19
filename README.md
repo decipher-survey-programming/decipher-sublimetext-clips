@@ -1,22 +1,34 @@
-Decipher-subl
+Decipher-sublimetext-clips
 =======
+Allows you to create XML tags like NoteTab Pro (clips)<br/>
+This was a port of most of Minh's clips
 
-create XML tags like NoteTab Pro (clips)
+<b>Steps to Install:</b><br/>
+Clone repo or download and put it in your sublime Text 2/Packages folder.<br/>
+Windows 7 Default path:<br/>
+C:\Users\yourUserName\AppData\Roaming\Sublime Text 2\Packages<br/>
+Ubuntu Default path:<br/>
+~/.config/sublime-text-2
 
-Ported most of Minh's clips
+Please note that for Windows 7, the “AppData” folder may be hidden. If you type “C:\Users\<yourUserName>\AppData\Roaming\Sublime Text 2\Packages”  into your Windows Explorer’s address bar you will be taken to that location.
 
-clone repo or download and put it in your sublime Text 2/Packages folder
-Windows 7 Default path (C:\Users\yourUserName\AppData\Roaming\Sublime Text 2\Packages)
-Ubuntu Default path (~/.config/sublime-text-2)
 
-How to call the clips/snippets
+<b>How to call the clips/snippets:</b><br/>
+Create a new XML document (The shortcuts for clips and snippets will only work with the XML extension). 
+
+To use a clip, select text you want to wrap in tags and then either use the shortcut or context menu option.  
+
+To use a snippet, type the snippet’s tab trigger and then hit tab. This will generate short fragments of text. 
+
+Some snippets have placeholder fields. If your snippet has a placeholder field the cursor will move to that field automatically for you to update the text. If your snippets has multiple fields (such as the loop snippet) hitting tab will move the cursor to the next placeholder field. 
+
 You can define your own keymappings in (Default (Linux or Windows).sublime-keymap)
 Right click context menu does provide the short cuts
 Command Palette 
 
-for python and JS syntax highlighting add this to your XML.tmLanguage
-https://gist.github.com/krasserp/3de245d8f3d954303f0f
-Windows 7 Default path (C:\Users\yourUserName\AppData\Roaming\Sublime Text 2\Packages\XML
+For python and JS syntax highlighting add this to your XML.tmLanguage file
+https://gist.github.com/krasserp/3de245d8f3d954303f0f<br/>
+Windows 7 Default path (C:\Users\yourUserName\AppData\Roaming\Sublime Text 2\Packages\XML)
 
 Decipher Sublime Text 2 Clips
 
@@ -152,5 +164,39 @@ r97 Don't know -> &lt;noanswer label="na97"&gt;Don't Know&lt;/noanswer&gt;<br>
 Command: <b>MM::AutoSum</b><br>
 Little command that is coupled with a snippet I have. I will work on getting those uploaded eventually.
 
+-----------------------
+<h3>List of Snippets</h3>
+
+|File Name|Short Cut|Description|
+|:------------|:----------|:-----------|
+|AnchorTag|anchor|Creates an anchor tag|
+|Block|block|Creates a block tag|
+|Breakx1|br1|Creates one br tag|
+|Breakx2|br2|Creates two br tags|
+|ColLegendRows|cl|Creates a colLegendRows attribute |
+|Comment|com|Creates a comment tag|
+|Condition|cond|Creates a condition attribute|
+|Css|css|Creates a style tag for "respview.client.css"|
+|Exclusive|ee|Creates two attributes: randomize="0" exclusive="1"|
+|ExecBlock|exec|Creates an exec tag|
+|Goto|goto|Creates a goto tag|
+|Label|label|Creates a label tag|
+|Loop|loop|Creates a loop tag wrapping a block tag|
+|OpenEnd|oe|Creates three attributes: open="1" openSize="25" randomize="0"|
+|PageHead|ph|Creates a style tag for "page.head"|
+|PostText|post|Creates an attribute for posttext|
+|QuestionAfter|qa|Creates a style tag for "question.after"|
+|Quota|quota|Create a quota tag|
+|Rating|rating|Creates two attributes: type="rating" values="order"|
+|RemoveFromBase|rfb|Creates two attributes: aggregate="0" percentages="0"|
+|ResTag|res|Creates a resource tag|
+|Shuffle|sh|Creates the attribute: shuffle="rows"|
+|States|states|Creates choices for all US states|
+|Suspend|sus|Creates a suspend tag|
+|Term|term|Creates a term tag|
+|Validate|val|Creates a validate tag|
+|VirtualBlock|virtual|Creates a virtual tag|
+|WhereExecute|wex|Creates the attribute: where="execute"|
+|WhereReport|wrp|Creates the attribute: where="report"|
 
 More soon...<br>
