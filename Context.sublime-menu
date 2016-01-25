@@ -1,7 +1,7 @@
 [
 {
   "id": "questionTypes",
-  "caption": "D-Question Types",
+  "caption": "Dec-Question Types",
   "children": 
    [
         { "id": "MakeSurvey", "caption": "Survey", "command": "make_survey"},
@@ -17,7 +17,7 @@
  },
   {
     "id": "questionElements",
-    "caption": "D-Question Elements",
+    "caption": "Dec-Question Elements",
     "children": 
     [
         

@@ -1,8 +1,5 @@
-Decipher-sublimetext-clips
-=======
-Allows you to create XML tags like NoteTab Pro (clips)<br/>
-This was a port of most of Minh's clips
-
+<b><u>Sublime Text 2 Decipher Clips</u></b><br/>
+==========================<br/><br/>
 <b>Steps to Install:</b><br/>
 Clone repo or download and put it in your sublime Text 2/Packages folder.<br/>
 Windows 7 Default path:<br/>
@@ -199,4 +196,4 @@ Little command that is coupled with a snippet I have. I will work on getting tho
 |WhereExecute|wex|Creates the attribute: where="execute"|
 |WhereReport|wrp|Creates the attribute: where="report"|
 
-More soon...<br>
+<br/>
