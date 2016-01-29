@@ -25,7 +25,7 @@ Some snippets have placeholder fields. If your snippet has a placeholder field t
 
 You can define your own keymappings in (Default (Linux or Windows).sublime-keymap)
 
-To bring up the context menu, right click in the text editor. You can then navigate to the Dec-Question Types or Dec-Question Elements to view the avaliable clips. This will also display the current short cuts for them. 
+To bring up the context menu, right click in the text editor. You can then navigate to the "Dec-Question Types" or "Dec-Question Elements" to view the avaliable clips. This will also display the current shortcuts for them. 
 
 <b>Decipher Sublime Text 3 Clips Examples</b><br/>
 =============================================<br/>
