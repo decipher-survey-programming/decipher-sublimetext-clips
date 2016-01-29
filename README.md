@@ -1,5 +1,5 @@
 <b><u>Sublime Text 2 Decipher Clips</u></b><br/>
-==========================<br/><br/>
+==========================<br/>
 <ul><b>Steps to Install:</b>
   <li>Clone repo or download and put it in your sublime Text 3/Packages folder.</li>
   <li>Windows 7 Default path:</li>
@@ -27,7 +27,7 @@ You can define your own keymappings in (Default (Linux or Windows).sublime-keyma
 
 To bring up the context menu, right click in the text editor. You can then navigate to the Dec-Question Types or Dec-Question Elements to view the avaliable clips. This will also display the current short cuts for them. 
 
-<b>Decipher Sublime Text 3 Clips Examples</b>
+<b>Decipher Sublime Text 3 Clips Examples</b><br/>
 =============================================<br/>
 
 Code block selection short cuts:
