@@ -1,4 +1,4 @@
-<b><u>Sublime Text 2 Decipher Clips</u></b><br/>
+<b><u>Sublime Text 3 Decipher Clips</u></b><br/>
 ==========================<br/>
 <ul><b>Steps to Install:</b>
   <li>Clone repo or download and put it in your sublime Text 3/Packages folder.</li>
