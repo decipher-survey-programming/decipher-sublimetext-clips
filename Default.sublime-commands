@@ -82,65 +82,6 @@
     {
         "caption": "Dt::Switch Row&Cols",
         "command": "make_switch"
-    }, {
-        "caption": "MM::Html",
-        "command": "make_html"
-    },
-    {
-      "caption": "MM::Strip",
-      "command": "strip"
-    },
-    {
-      "caption": "MM::Values",
-      "command": "match_row_values"
-    },
-    {
-      "caption": "MM::Image Tags",
-      "command": "image_tags"
-    },
-    {
-      "caption": "MM::Reverse Order",
-      "command": "reverse_order"
-    },
-    {
-      "caption": "MM::Make DCM",
-      "command": "make_dcm"
-    },
-    {
-      "caption": "MM::Split Question",
-      "command": "split_question"
-    },
-    {
-      "caption": "MM::SCols",
-      "command": "make_special_cols"
-    },
-    {
-      "caption": "MM::List",
-      "command": "make_list"
-    },
-    {
-      "caption": "MM::Custom",
-      "command": "custom"
-    },
-    {
-      "caption": "MM::Clean",
-      "command": "clean"
-    },
-    {
-      "caption": "MM::No Answer",
-      "command": "noanswer"
-    },
-    {
-      "caption": "MM::AutoSum",
-      "command": "auto_sum"
-    },
-    {
-      "caption": "MM::Zach Rows",
-      "command": "zach_rows"
-    },
-    {
-      "caption": "MM::SRows",
-      "command": "auto_rows"
     }
 ]       
 

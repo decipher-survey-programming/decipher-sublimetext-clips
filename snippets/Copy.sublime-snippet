@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-onLoad="copy('${1}', rows=True${2:, exclude='${3}'})"
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>copy</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.xml</scope>
-</snippet>

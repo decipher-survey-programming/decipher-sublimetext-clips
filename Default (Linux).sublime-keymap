@@ -144,30 +144,5 @@
               "key": "selector", "operator": "equal", "operand":"text.xml"
             }
         ]
-    },
-    { 
-        "keys": ["ctrl+alt+s"], "command": "strip", "context": [
-            {
-              "key": "selector", "operator": "equal", "operand":"text.xml"
-            }
-        ]
-    },
-    { 
-        "keys": ["ctrl+alt+i"], "command": "image_tags", "context": [
-            {
-              "key": "selector", "operator": "equal", "operand":"text.xml"
-            }
-        ]
-    },
-    { 
-        "keys": ["ctrl+alt+n"], "command": "noanswer", "context": [
-            {
-              "key": "selector", "operator": "equal", "operand":"text.xml"
-            }
-        ]
-    },
-    { "keys": ["ctrl+shift+right"], "command": "select_to_endofline" },
-    { "keys": ["ctrl+shift+down"], "command": "select_to_next_cursor" },
-    { "keys": ["ctrl+shift+e"], "command": "select_to_end_block" },
-    { "keys": ["ctrl+shift+a"], "command": "select_to_start_block" }
+    }
 ]
