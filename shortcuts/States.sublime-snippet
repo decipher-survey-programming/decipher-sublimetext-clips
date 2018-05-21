@@ -1,0 +1,60 @@
+<snippet>
+	<content><![CDATA[
+  <choice label="ch1">Alabama</choice>
+  <choice label="ch2">Alaska</choice>
+  <choice label="ch3">Arizona</choice>
+  <choice label="ch4">Arkansas</choice>
+  <choice label="ch5">California</choice>
+  <choice label="ch6">Colorado</choice>
+  <choice label="ch7">Connecticut</choice>
+  <choice label="ch8">Delaware</choice>
+  <choice label="ch9">District of Columbia</choice>
+  <choice label="ch10">Florida</choice>
+  <choice label="ch11">Georgia</choice>
+  <choice label="ch12">Hawaii</choice>
+  <choice label="ch13">Idaho</choice>
+  <choice label="ch14">Illinois</choice>
+  <choice label="ch15">Indiana</choice>
+  <choice label="ch16">Iowa</choice>
+  <choice label="ch17">Kansas</choice>
+  <choice label="ch18">Kentucky</choice>
+  <choice label="ch19">Louisiana</choice>
+  <choice label="ch20">Maine</choice>
+  <choice label="ch21">Maryland</choice>
+  <choice label="ch22">Massachusetts</choice>
+  <choice label="ch23">Michigan</choice>
+  <choice label="ch24">Minnesota</choice>
+  <choice label="ch25">Mississippi</choice>
+  <choice label="ch26">Missouri</choice>
+  <choice label="ch27">Montana</choice>
+  <choice label="ch28">Nebraska</choice>
+  <choice label="ch29">Nevada</choice>
+  <choice label="ch30">New Hampshire</choice>
+  <choice label="ch31">New Jersey</choice>
+  <choice label="ch32">New Mexico</choice>
+  <choice label="ch33">New York</choice>
+  <choice label="ch34">North Carolina</choice>
+  <choice label="ch35">North Dakota</choice>
+  <choice label="ch36">Ohio</choice>
+  <choice label="ch37">Oklahoma</choice>
+  <choice label="ch38">Oregon</choice>
+  <choice label="ch39">Pennsylvania</choice>
+  <choice label="ch40">Rhode Island</choice>
+  <choice label="ch41">South Carolina</choice>
+  <choice label="ch42">South Dakota</choice>
+  <choice label="ch43">Tennessee</choice>
+  <choice label="ch44">Texas</choice>
+  <choice label="ch45">Utah</choice>
+  <choice label="ch46">Vermont</choice>
+  <choice label="ch47">Virginia</choice>
+  <choice label="ch48">Washington</choice>
+  <choice label="ch49">West Virginia</choice>
+  <choice label="ch50">Wisconsin</choice>
+  <choice label="ch51">Wyoming</choice>
+  <choice label="ch52">Other</choice>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>states</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

@@ -144,5 +144,21 @@
               "key": "selector", "operator": "equal", "operand":"text.xml"
             }
         ]
-    }
+    },
+    {
+        "keys": ["shift+alt+b"],
+        "command": "insert_snippet",
+        "args":
+            {
+            "name": "Packages/sublime_clips/shortcuts/BoldText.sublime-snippet"
+        }
+    },
+    {
+        "keys": ["shift+alt+u"],
+        "command": "insert_snippet",
+        "args":
+            {
+            "name": "Packages/sublime_clips/shortcuts/UnderlineText.sublime-snippet"
+        }
+    },
 ]
