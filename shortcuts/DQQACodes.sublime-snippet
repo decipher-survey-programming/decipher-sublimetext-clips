@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<style name='survey.question.answers.start' mode="before"> <![CDATA[
+\@if gv.hasQA(True) and gv.showCms()
+<div class="surveyWarning">
+    <div class="info">
+        <blockquote style="text-align: center;">The below results will not show to respondents. It is shown only when "QA Codes" are turned on.</blockquote>
+    </div>
+</div>
+\@else
+<style>
+.answers { display: none !important; }
+</style>
+\@endif
+]]${-1}></style>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>qacodes</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+</snippet>
