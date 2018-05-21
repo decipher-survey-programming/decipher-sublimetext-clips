@@ -150,7 +150,7 @@
         "command": "insert_snippet",
         "args":
             {
-            "name": "Packages/sublime_clips/shortcuts/BoldText.sublime-snippet"
+            "name": "Packages/decipher-sublimetext-clips/shortcuts/BoldText.sublime-snippet"
         }
     },
     {
@@ -158,7 +158,7 @@
         "command": "insert_snippet",
         "args":
             {
-            "name": "Packages/sublime_clips/shortcuts/UnderlineText.sublime-snippet"
+            "name": "Packages/decipher-sublimetext-clips/shortcuts/UnderlineText.sublime-snippet"
         }
     },
 ]
