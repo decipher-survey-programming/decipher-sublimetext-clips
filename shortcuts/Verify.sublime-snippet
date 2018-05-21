@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+verify="${0:range(0,100)}"
+]]></content>
+    <!-- OptionaSet a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>verify</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+</snippet>

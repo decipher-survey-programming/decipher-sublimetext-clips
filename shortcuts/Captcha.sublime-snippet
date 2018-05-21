@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<logic
+  uses="recaptcha.1"
+  label="Q99"/>
+
+<term cond="not Q99.human">Captcha fail</term>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>captcha</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

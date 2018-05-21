@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<style cond="co in ['isr']" mode="after" name="respview.client.css"><![CDATA[
+<style>
+  body { direction: rtl; }
+  .survey-buttons { text-align: left !important; }
+  #surveyContent, .survey-body, .question-text, .instruction-text,
+  .grid.grid-table-mode .row-legend, .grid-desktop-mode.grid-list-mode .cell-section,
+  .grid-single-col .cell, .grid[data-settings*='single-col'] .cell,
+  .noRows .grid.grid.grid-table-mode .colCount-1 .element,
+  .noRows .grid.grid.grid-table-mode .colCount-1 .col-legend { text-align: right !important; }
+  .survey-body .fir-hidden { left: auto !important; right: -9999px !important; }
+</style>
+]]${-1:}></style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rtl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

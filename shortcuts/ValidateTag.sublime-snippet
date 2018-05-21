@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<validate>
+${0}
+</validate>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>validate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

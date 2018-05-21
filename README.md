@@ -12,7 +12,7 @@
   </ul>
 </ul>
 
-<i>Please note that for Windows 7, the “AppData” folder may be hidden. If you type “C:\Users\<yourUserName>\AppData\Roaming\Sublime Text 3\Packages”  into your Windows Explorer’s address bar you will be taken to that location.</i>
+<i>Please note that for Windows 7, the “AppData” folder may be hidden. If you type “C:\Users\\\<yourUserName>\AppData\Roaming\Sublime Text 3\Packages”  into your Windows Explorer’s address bar you will be taken to that location.</i>
 
 <b>How to call the clips/snippets:</b><br/>
 Create a new XML document (The shortcuts for clips and snippets will only work with the XML extension). 
