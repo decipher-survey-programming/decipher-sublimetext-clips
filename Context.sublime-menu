@@ -32,9 +32,7 @@
         {"id": "MakeLabel", "caption": "Rows match label", "command": "make_rows_match_label"},
         {"id": "MakeMatchLab", "caption": "Cols match label", "command": "make_cols_match_label"},
         {"id": "MakeColsMatchValue", "caption": "Cols match value", "command": "make_cols_match_value"},
-        {"id": "MakeSwitch", "caption": "Switch Cols Rows", "command": "make_switch"},
-        {"id": "MakeImage", "caption": "Create rel images", "command": "image_tags"},
-        {"id": "NoAnswer", "caption": "No answer", "command": "noanswer"}
+        {"id": "MakeSwitch", "caption": "Switch Cols Rows", "command": "make_switch"}
         
     ]
  }
