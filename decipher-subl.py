@@ -82,7 +82,7 @@ def newSurvey():
         <exit cond="overquota"><b>Thank you for your input!</b></exit>
       </samplesource>
     </samplesources>"""
-    FOOTER = """<marker name="qualified"/></survey>"""
+    FOOTER = """</survey>"""
 
     return[HEADER,FOOTER]
 
@@ -113,7 +113,7 @@ def newSurveyCMB():
                 <exit cond="overquota"><b>Thank you for your input!</b></exit>
               </samplesource>
             </samplesources>"""
-    FOOTER = """<marker name="qualified"/></survey>"""
+    FOOTER = """</survey>"""
     return[HEADER,FOOTER]
 
 def newSurveyEBAY():
@@ -214,7 +214,7 @@ def newSurveyEBAY():
             """
 
 
-    FOOTER = """<marker name="qualified"/></survey>"""
+    FOOTER = """</survey>"""
     return[HEADER,FOOTER]
 
 def newSurveyFMA():
@@ -243,7 +243,7 @@ def newSurveyFMA():
               </samplesource>
             </samplesources>"""
 
-    FOOTER = """<marker name="qualified"/>
+    FOOTER = """
 
                 <radio label="vStatus" title="Status">
                 <virtual>
@@ -295,7 +295,7 @@ def newSurveyGDI():
                 <number altlabel="record" fwidth="10" label="vrec" size="10" title="Record As Number" virtual="if record:  data[0][0] = int(record)"/>
                 """
 
-    FOOTER = """<marker name="qualified"/></survey>"""
+    FOOTER = """</survey>"""
     return[HEADER,FOOTER]
 
 def newSurveySRG():
@@ -322,7 +322,7 @@ def newSurveySRG():
                 <exit cond="overquota"><b>Thank you for your input!</b></exit>
               </samplesource>
             </samplesources>"""
-    FOOTER = """<marker name="qualified"/></survey>"""
+    FOOTER = """</survey>"""
     return[HEADER,FOOTER]
 
 def newSurveyGMI():
@@ -366,7 +366,7 @@ def newSurveyGMI():
 
             <html cond="db_completed.has(p.completedID)" final="1" label="dupe" where="survey">It seems you have already participated in this survey.</html>
             """
-    FOOTER = """<marker name="qualified"/>
+    FOOTER = """
                 <exec when="finished">
                 if gv.survey and gv.survey.root.state.live:
                     db_completed.add(p.completedID)
